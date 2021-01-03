@@ -16,7 +16,7 @@
 				"causes": {
 					"cause1": "cause text one",
 					"cause2": "cause text two",
-					"cause3": "cause text three",
+					"cause3": "",
 					"cause4": ""
 				},
 				"effects": "Installation, Updates, Maintenance, Operation",
