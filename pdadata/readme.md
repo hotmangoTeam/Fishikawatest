@@ -151,6 +151,7 @@ _(z)_ single character, 0-F alpha-numeric
 4 : Optional/Good Practice (VEL: No Value, display "?")
 
 **(problem-category) :** valid problem-category values
+
 Unknown, Fishikawa, Server, Web Server, Network, Browser, Database, PHP, Javascript, jQuery, Ajax, Joomla, Joomla Administration, Joomla Site, Library, Component, Module, Plugin, Template, Remote Service, Optimisation, Security, Performance, Coding Practice, Known Bug (+automated; VEL/Vulnerable Extension List)
 
 **(experience) :** valid values to describe the skill level required to resolve this problem
