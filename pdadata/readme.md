@@ -1,3 +1,12 @@
+# What's This All About?
+The frca-pdadta.json file is the core "Problem Determination" database behind the **Fishikawa - Root Cause Analysis** application. This file is designed to be a freely available, GNU/GPL licensed, application agnostic json dataset of of known problems that may adversly effect the successful installation, management and operation of the Joomla! CMS.
+
+> The FRCA and associated datasets come with ABSOLUTELY NO WARRANTY. 
+
+>Fishikawa (FRCA) & associated files or datasets are are not affiliated with or endorsed by The Joomla! Project™. Use of the Joomla!® name, symbol, logo, and related trademarks is licensed by Open Source Matters, Inc.
+
+---
+
 ## Problem Determination Aide - frca-pdadata.json
 a json encoded file providing a consistent (hex based) alpha-numeric convention for reporting/ listing/ registering/ displaying errors and messages in the **Fishikawa - Root Cause Analysis application** for joomla! known problems and potential fixes.
 
