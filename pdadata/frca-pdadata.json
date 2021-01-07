@@ -6,51 +6,131 @@
 		"timestamp": "2021-01-03T09:00:00+00:00",
 		"license": "GNU/GPL",
 		"copyright": "Fishikawa Project - @RussW, @mandville, @frostmakk",
-		"pdc": [
-			{
-				"0012PHP": {
-					"heading": "Test heading one test heading one",
-					"description": "Test description one Ttst description one test description one test description one",
-					"category": "critical",
-					"severity": "1",
-					"symptoms": "White Screen, Fatal Errors, Warning Messages, Write Errors",
-					"causes": {
-						"cause1": "cause text one",
-						"cause2": "cause text two",
-						"cause3": "",
-						"cause4": ""
-					},
-					"effects": "Installation, Updates, Maintenance, Operation",
-					"actions": {
-						"action1": "action text one action text one action text one ",
-						"action2": "action text two action text two action text two",
-						"action3": "action text three action text three action text three",
-						"action4": "action text four action text four action text four"
-					},
-					"experience": "Intermediate"
+		"pdc": {
+			"0003": {
+				"heading": "Database credentials appear to be missing or invalid",
+				"description": "Either the database username or password appear to be missing in the configuration.php",
+				"category": "joomla",
+				"severity": "1",
+				"symptoms": {
+					"0": "White screen",
+					"1": "Fatal SQL error message",
+					"2": "",
+					"3": ""
 				},
-				"0012SVR": {
-					"heading": "Test heading zero test heading zero",
-					"description": "Test description zero test description zero test description zero test description zero",
-					"category": "critical",
-					"severity": "1",
-					"symptoms": "White Screen, Fatal Errors, Warning Messages, Write Errors",
-					"causes": {
-						"cause1": "cause text one",
-						"cause2": "cause text two",
-						"cause3": "cause text three",
-						"cause4": "cause text four"
-					},
-					"effects": "Installation, Updates, Maintenance, Operation",
-					"actions": {
-						"action1": "action text one action text one action text one ",
-						"action2": "action text two action text two action text two",
-						"action3": "action text three action text three action text three",
-						"action4": "action text four action text four action text four"
-					},
-					"experience": "Expert"
-				}
+				"causes": {
+					"0": "cause text one",
+					"1": "cause text two",
+					"2": "",
+					"3": ""
+				},
+				"effects": {
+					"0": "Site operation",
+					"1": "Site administration",
+					"2": "",
+					"3": ""
+				},
+				"actions": {
+					"0": "action text one action text one action text one ",
+					"1": "action text two action text two action text two",
+					"2": "action text three action text three action text three",
+					"3": "action text four action text four action text four"
+				},
+				"experience": "Intermediate"
+			},
+			"0002": {
+				"heading": "Test heading one test heading one",
+				"description": "Test description one Ttst description one test description one test description one",
+				"category": "php",
+				"severity": "1",
+				"symptoms": {
+					"0": "White screen",
+					"1": "Fatal SQL error message",
+					"2": "",
+					"3": ""
+				},
+				"causes": {
+					"0": "cause text one",
+					"1": "cause text two",
+					"2": "",
+					"3": ""
+				},
+				"effects": {
+					"0": "Site operation",
+					"1": "Site administration",
+					"2": "",
+					"3": ""
+				},
+				"actions": {
+					"0": "action text one action text one action text one ",
+					"1": "action text two action text two action text two",
+					"2": "action text three action text three action text three",
+					"3": "action text four action text four action text four"
+				},
+				"experience": "Intermediate"
+			},
+			"0001": {
+				"heading": "Test heading zero test heading zero",
+				"description": "Test description zero test description zero test description zero test description zero",
+				"category": "server",
+				"severity": "2",
+				"symptoms": {
+					"0": "White screen",
+					"1": "Fatal SQL error message",
+					"2": "",
+					"3": ""
+				},
+				"causes": {
+					"0": "",
+					"1": "",
+					"2": "",
+					"3": ""
+				},
+				"effects": {
+					"0": "",
+					"1": "",
+					"2": "",
+					"3": ""
+				},
+				"actions": {
+					"0": "action text one action text one action text one",
+					"1": "action text two action text two action text two",
+					"2": "action text three action text three action text three",
+					"3": "action text four action text four action text four"
+				},
+				"experience": "Expert"
+			},
+			"0000": {
+				"heading": "An Unexpected Fishikawa Error Occured!",
+				"description": "Fishikawa was unable to determine a reasonable course of action to follow or did not find a related Problem Determination Aide to display",
+				"category": "Fishikawa",
+				"severity": "1",
+				"symptoms": {
+					"0": "FRCA was unable to provide any assistance",
+					"1": "",
+					"2": "",
+					"3": ""
+				},
+				"causes": {
+					"0": "",
+					"1": "",
+					"2": "",
+					"3": ""
+				},
+				"effects": {
+					"0": "Fishikawa has continued, other results may still be actioned",
+					"1": "",
+					"2": "",
+					"3": ""
+				},
+				"actions": {
+					"0": "Please open a <strong>Bug Report</strong> issue on the Fishikawa github project page",
+					"1": "https://github.com/ForumPostAssistant/Fishikawa/issues",
+					"2": "",
+					"3": ""
+				},
+				"experience": "Fishikawa Team"
 			}
-		]
+		}
 	}
 }
