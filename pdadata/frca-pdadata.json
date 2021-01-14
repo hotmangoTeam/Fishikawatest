@@ -97,34 +97,31 @@
 					"3": "action text four action text four action text four"
 				}
 			},
+		"0001": {
+			"heading": "Fishikawa was unable to access required remote resources",
+			"description": "cURL is either not available or has been disabled by your host, FRCA was unable to download the required resources",
+			"category": "Fishikawa",
+			"severity": "1",
+			"symptoms": {
+				"0": "No problem determination tests performed",
+				"1": "No vulnerable extension tests performed"
+			},
+			"actions": {
+				"0": "enable cURL in PHP",
+				"1": "try reloading FRCA again"
+			},
 			"0000": {
 				"heading": "An Unexpected Fishikawa Error Occured!",
 				"description": "Fishikawa was unable to determine a reasonable course of action to follow or did not find a related Problem Determination Aide to display",
 				"category": "Fishikawa",
-				"severity": "_FRCA_RISKUC",
+				"severity": "4",
 				"symptoms": {
 					"0": "Fishikawa has continued, other results may still be actioned",
-					"1": "FRCA was unable to provide any assistance",
-					"2": "",
-					"3": ""
-				},
-				"causes": {
-					"0": "",
-					"1": "",
-					"2": "",
-					"3": ""
-				},
-				"effects": {
-					"0": "",
-					"1": "",
-					"2": "",
-					"3": ""
+					"1": "Unable to provide any assistance"
 				},
 				"actions": {
 					"0": "Please open a <strong>Bug Report</strong> issue on the Fishikawa github project page",
-					"1": "https://github.com/ForumPostAssistant/Fishikawa/issues",
-					"2": "",
-					"3": ""
+					"1": "https://github.com/ForumPostAssistant/Fishikawa/issues"
 				}
 			}
 		}
