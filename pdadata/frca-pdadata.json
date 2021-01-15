@@ -97,18 +97,19 @@
 					"3": "action text four action text four action text four"
 				}
 			},
-		"0001": {
-			"heading": "Fishikawa was unable to access required remote resources",
-			"description": "cURL is either not available or has been disabled by your host, FRCA was unable to download the required resources",
-			"category": "Fishikawa",
-			"severity": "1",
-			"symptoms": {
-				"0": "No problem determination tests performed",
-				"1": "No vulnerable extension tests performed"
-			},
-			"actions": {
-				"0": "enable cURL in PHP",
-				"1": "try reloading FRCA again"
+			"0001": {
+				"heading": "Fishikawa was unable to access required remote resources",
+				"description": "cURL is either not available or has been disabled by your host, FRCA was unable to download the required resources",
+				"category": "Fishikawa",
+				"severity": "1",
+				"symptoms": {
+					"0": "No problem determination tests performed",
+					"1": "No vulnerable extension tests performed"
+				},
+				"actions": {
+					"0": "enable cURL in PHP",
+					"1": "try reloading FRCA again"
+				}
 			},
 			"0000": {
 				"heading": "An Unexpected Fishikawa Error Occured!",
