@@ -1,4 +1,5 @@
-	# Internal Resources
+<?php
+# Internal Resources
 	define('_FRCA_DOREMOTE_ERROR', 'cURL is not available. FRCA could not access or download necessary remote resources');
 	define('_FRCA_DEVENA', 'FRDeveloper Mode Enabled');
 	define('_FRCA_DEVDSC', 'FRtroubleshooting information has been made available');
@@ -104,3 +105,4 @@
 	define('_FRCA_CATEGORY', 'Category');
 	define('_FRCA_TYPE', 'Type');
 	define('_FRCA_UPDATETO', 'Update To');
+?>
