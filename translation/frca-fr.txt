@@ -35,7 +35,7 @@
 	define('_FRCA_MINOR_DESC', 'Minor issues that may reduce or limit feature functionality or administration and maintenace tasks');
 	define('_FRCA_BESTPRACTICE', 'Best Practice');
 	define('_FRCA_BESTPRACTICE_DESC', 'Recommendations that could potentially enhance performance, security, productivity or rankings');
-	define('_FRCA_NOPROBS_DESC', 'Good News!<br />No known problems were discovered');
+	define('_FRCA_NOPROBS_DESC', 'Good News! No known problems were discovered');
 
 	# Problem Severity/Risk
 	define('_FRCA_RISKHIGH', 'High');
