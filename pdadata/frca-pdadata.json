@@ -97,14 +97,56 @@
 					"3": "action text four action text four action text four"
 				}
 			},
+			"0004": {
+				"heading": "Fishikawa was unable to access desired remote translation resources",
+				"description": "FRCA was unable to download the desired translation resources for your language",
+				"category": "Fishikawa",
+				"severity": "4",
+				"symptoms": {
+					"0": "Language is set to the default (English)"
+				},
+				"actions": {
+					"0": "try resetting FRCA back to defaults",
+					"1": "continue using FRCA in English"
+				}
+			},
+			"0003": {
+				"heading": "Fishikawa was unable to access a desired remote resource",
+				"description": "FRCA was unable to download the desired vulnerable extension list resource",
+				"category": "Fishikawa",
+				"severity": "3",
+				"symptoms": {
+					"0": "No vulnerable extension tests performed"
+				},
+				"actions": {
+					"0": "try resetting FRCA back to defaults",
+					"1": "check that extensions.joomla.org is online",
+					"2": "if the problem persist, open a github issue with the FRCA team"
+				}
+			},
+			"0002": {
+				"heading": "Fishikawa was unable to access a desired remote resource",
+				"description": "simpleXML is either not available or has been disabled by your host, FRCA was unable to download the required resource",
+				"category": "Fishikawa",
+				"severity": "2",
+				"symptoms": {
+					"0": "Joomla version checks are not available"
+				},
+				"actions": {
+					"0": "enable simpleXML in PHP",
+					"1": "try reloading FRCA again"
+				}
+			},
 			"0001": {
-				"heading": "Fishikawa was unable to access required remote resources",
+				"heading": "Fishikawa was unable to access any required remote resources",
 				"description": "cURL is either not available or has been disabled by your host, FRCA was unable to download the required resources",
 				"category": "Fishikawa",
 				"severity": "1",
 				"symptoms": {
 					"0": "No problem determination tests performed",
-					"1": "No vulnerable extension tests performed"
+					"1": "No vulnerable extension tests performed",
+					"2": "FRCA version checks are not available",
+					"3": "No translations are available"
 				},
 				"actions": {
 					"0": "enable cURL in PHP",
