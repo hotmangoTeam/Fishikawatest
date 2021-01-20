@@ -97,6 +97,19 @@
 					"3": "action text four action text four action text four"
 				}
 			},
+			"0005": {
+				"heading": "Fishikawa is out of date",
+				"description": "You are running an old version of FRCA, please update to the latest release",
+				"category": "Fishikawa",
+				"severity": "4",
+				"symptoms": {
+					"0": "Not at latest release"
+				},
+				"actions": {
+					"0": "download the latest FRCA",
+					"1": "replace your old version with the new release"
+				}
+			},
 			"0004": {
 				"heading": "Fishikawa was unable to access desired remote translation resources",
 				"description": "FRCA was unable to download the desired translation resources for your language",
